@@ -193,11 +193,11 @@ def index():
     return render_template_string(
         HTML_TEMPLATE,
         student_name="Shivam Korpade",
-        roll_no="2425010071 (DS-76)",
+        roll_no="2324000756 (DS38)",
         department="B.Tech CSE (Data Science) - Sem VII",
         academic_year="A.Y. 2026-27",
         version="1.0.0",
-        platform_name=platform.node() or platform.system()
+        platform_name="LAPTOP-UNKNOWN"
     )
 
 @app.route("/health")
@@ -233,7 +233,7 @@ def info():
         "app_name": "CI-CD-Lab-App",
         "description": "Flask microservice demonstrating CI/CD pipeline automation and endpoint monitoring",
         "author": "Shivam Korpade",
-        "prn": "2425010071",
+        "prn": "2324000756",
         "academic_year": "2026-27",
         "version": "1.0.0"
     }), 200
