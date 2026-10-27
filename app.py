@@ -192,7 +192,7 @@ def count_requests():
 def index():
     return render_template_string(
         HTML_TEMPLATE,
-        student_name="Mohini Deshmukh",
+        student_name="Shivam Korpade",
         roll_no="2425010071 (DS-76)",
         department="B.Tech CSE (Data Science) - Sem VII",
         academic_year="A.Y. 2026-27",
@@ -232,7 +232,7 @@ def info():
     return jsonify({
         "app_name": "CI-CD-Lab-App",
         "description": "Flask microservice demonstrating CI/CD pipeline automation and endpoint monitoring",
-        "author": "Mohini Deshmukh",
+        "author": "Shivam Korpade",
         "prn": "2425010071",
         "academic_year": "2026-27",
         "version": "1.0.0"

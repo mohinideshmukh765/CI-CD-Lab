@@ -1,6 +1,6 @@
 # CI/CD Pipeline & Monitoring Lab
 
-**Student Name:** Mohini Deshmukh  
+**Student Name:** Shivam Korpade  
 **PRN / Roll Number:** 2425010071 (Roll No: DS-76)  
 **Department / Class:** Department of CSE (Data Science) / Final Year B.Tech CSE (DS), Semester VII  
 **Academic Year:** A.Y. 2026-27  
