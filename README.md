@@ -1,7 +1,7 @@
 # CI/CD Pipeline & Monitoring Lab
 
-**Student Name:** Shivam Korpade  
-**PRN / Roll Number:** 2324000756 (Roll No: DS38)  
+**Student Name:** Aditi Rewadkar  
+**PRN / Roll Number:** 2425010132 (Roll No: DS75)  
 **Department / Class:** Department of CSE (Data Science) / Final Year B.Tech CSE (DS), Semester VII  
 **Academic Year:** A.Y. 2026-27  
 **Course:** DevOps & Cloud Computing / ISE-2 Lab  

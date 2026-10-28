@@ -15,8 +15,8 @@ def test_index_route(client):
     response = client.get("/")
     assert response.status_code == 200
     assert b"CI/CD Pipeline &amp; Monitoring Lab" in response.data or b"CI/CD Pipeline & Monitoring Lab" in response.data
-    assert b"Shivam Korpade" in response.data
-    assert b"2324000756" in response.data
+    assert b"Aditi Rewadkar" in response.data
+    assert b"2425010132" in response.data
 
 def test_health_endpoint(client):
     response = client.get("/health")
@@ -40,8 +40,8 @@ def test_info_endpoint(client):
     response = client.get("/info")
     assert response.status_code == 200
     json_data = response.get_json()
-    assert json_data["author"] == "Shivam Korpade"
-    assert json_data["prn"] == "2324000756"
+    assert json_data["author"] == "Aditi Rewadkar"
+    assert json_data["prn"] == "2425010132"
 
 def test_not_found(client):
     response = client.get("/non-existent-route")
